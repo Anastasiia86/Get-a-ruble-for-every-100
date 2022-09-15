@@ -6,7 +6,7 @@ public class Main {
         int deposit = 1100;// сумма пополнения счета
         int bonus;//сумма бонусов
 
-        if (deposit >= 1000){
+        if (deposit > 1000) {
             bonus = deposit / bonusRubles;
         } else {
             bonus = 0;
@@ -18,6 +18,6 @@ public class Main {
         System.out.println("Ваш бонус составил " + bonus + " руб.");
         System.out.println("Итоговая сумма на счету : " + balance + " руб.");
     }
-    }
+}
 
 
